@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-crash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cli-color": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "start": "node http",
+    "dev":"nodemon http"
+  },
+  "author": "",
+  "license": "ISC"
+}
